@@ -1,0 +1,101 @@
+/* Part 2 */
+
+body{
+    background-color:lightgreen;
+    
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: rgb(248, 122, 4);
+    }
+  }
+p{
+    color: white;
+}
+a {
+    text-decoration: none;
+    }   
+
+a:link {
+    color: green;
+  }
+  
+  
+  a:visited {
+    color: green;
+  }
+  
+  
+  a:hover {
+    color: red;
+  }
+  
+ 
+  a:active {
+    color: yellow;
+  }
+ th{
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: rgb(240, 127, 255);
+}
+tr:nth-child(odd){
+    background-color: rgb(127, 255, 138);
+}
+.lists > p{
+    color:rgb(106, 7, 163)
+    
+}
+.lists > ul{
+    list-style-type: lower-greek;
+    list-style-position: inside;
+    color: skyblue;
+}
+.lists > ol{
+    list-style-type: upper-alpha;
+    list-style-position:outside;
+    color: blue;
+}
+.inline{
+    text-align: center;
+    color: rgb(44, 82, 1);
+}
+img{
+    border: 3px solid #101fe6;
+    padding: 10px 10px;
+    width: 400px;
+  height: 250px;
+  
+}
+button{
+    color:rgb(240, 95, 95);
+    background-color: black;
+}
+.inline > p{
+    color: rgb(44, 82, 1);
+}
+.intro > ul{
+    color: white;
+}
+/* Part 3 */
+.gallery:hover
+{
+    
+        background-color: aquamarine;
+        font-size: 18px;
+      
+}
+.gallery{
+    box-shadow: 1px 1px;
+    display: flex;
+    
+    align-items: center;
+    justify-content:space-between;
+}
+table{
+    box-shadow: 1px 1px;
+    margin: auto;
+    width:40%
+}
+* {margin: 5; padding: 5;}
