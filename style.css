@@ -1,14 +1,9 @@
 /* Part 2 */
 
 body{
-    background-color:lightgreen;
+    background-color:rgb(248, 122, 4);
     
 }
-@media screen and (min-width: 480px) {
-    body {
-      background-color: rgb(248, 122, 4);
-    }
-  }
 p{
     color: white;
 }
@@ -62,7 +57,8 @@ tr:nth-child(odd){
     color: rgb(44, 82, 1);
 }
 img{
-    border: 3px solid #101fe6;
+    /* border: 3px solid #101fe6; */
+    border-radius: 15%;
     padding: 10px 10px;
     width: 400px;
   height: 250px;
@@ -79,7 +75,7 @@ button{
     color: white;
 }
 /* Part 3 */
-.gallery:hover
+img:hover
 {
     
         background-color: aquamarine;
@@ -87,15 +83,25 @@ button{
       
 }
 .gallery{
-    box-shadow: 1px 1px;
+    
     display: flex;
     
-    align-items: center;
-    justify-content:space-between;
+    /* align-items: center; */
+    justify-content:space-around;
 }
 table{
-    box-shadow: 1px 1px;
+    box-shadow: 10px 10px 5px lightblue;
     margin: auto;
     width:40%
 }
 * {margin: 5; padding: 5;}
+.ab {
+    text-align: center;
+    
+}
+tr:hover{
+    background-color: rgb(177, 103, 12);
+}
+img {
+    box-shadow: 10px 10px 5px lightblue;
+  }
